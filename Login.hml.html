@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una pequeña empresa comprometida...</p>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <p>Puedes contactarnos en:</p>
+            <address>
+            Correo: <a href="mailto:info@example.com">info@example.com</a><br>
+            Teléfono: 123-456-7890
+        </address>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2024 - Mi Página</p>
+    </footer>
+</body>
+
+</html>
+Este es un diseño básico de una página web con una estructura de encabezado, navegación, contenido principal y pie de página. Puedes personalizarlo según tus necesidades. User dame un login ChatGPT Aquí tienes un ejemplo simple de un formulario de inicio
+de sesión HTML: html Copy code
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #d1037b;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .login-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form action="sesion.php" method="post">
+            <input type="text" name="username" placeholder="Usuario" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+</body>
+
+</html>
